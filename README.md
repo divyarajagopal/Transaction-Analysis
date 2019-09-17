@@ -1,4 +1,4 @@
-# Todo-List Application using React
+# Transaction-Analysis Application using React
 
 
 # Scripts

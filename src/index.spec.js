@@ -28,19 +28,6 @@ describe("TransactionAnalysis", () => {
     form.simulate("submit");
     expect(onSubmitFn).toHaveBeenCalledTimes(1);
   });
-  it("calls onSubmit function when form is submitted", () => {
-    const onSubmitFn = jest.fn();
-    const wrapper = mount(<form onSubmit={onSubmitFn} />);
-    const form = wrapper.find("form");
-    form.simulate("submit");
-    expect(onSubmitFn).toHaveBeenCalledTimes(1);
-  });
-  it("calls onSubmit function when form is submitted", () => {
-    const onSubmitFn = jest.fn();
-    const wrapper = mount(<form onSubmit={onSubmitFn} />);
-    const form = wrapper.find("form");
-    form.simulate("submit");
-    expect(onSubmitFn).toHaveBeenCalledTimes(1);
-  });
+  
   
 });
